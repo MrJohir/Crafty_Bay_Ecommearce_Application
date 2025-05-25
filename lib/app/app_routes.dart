@@ -14,7 +14,7 @@ import 'package:flutter/material.dart';
 
 class AppRoutes {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
-    debugPrint('Routes>>>>${settings.name}');
+    debugPrint('Routes>>${settings.name}');
     late Widget route;
     if (settings.name == SplashScreen.name) {
       route = const SplashScreen();
