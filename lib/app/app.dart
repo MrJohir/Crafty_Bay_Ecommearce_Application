@@ -36,7 +36,7 @@ class CraftyBayApp extends StatelessWidget {
           type: BottomNavigationBarType.fixed,
         ),
         colorSchemeSeed: AppColors.themeColor,
-        textTheme: const TextTheme(
+        textTheme: TextTheme(
           titleLarge: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -46,7 +46,7 @@ class CraftyBayApp extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(8),
             ),
-            foregroundColor: Colors.white,
+            foregroundColor: Colors.white10,
           ),
         ),
         inputDecorationTheme: InputDecorationTheme(
